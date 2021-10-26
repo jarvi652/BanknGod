@@ -1,7 +1,10 @@
 node_modules
-logs
-*.logs
 
-dist/
-lib-cov
+logs
+*.log
+
+Public
+dist
+
+
 .DS_Store
