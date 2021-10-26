@@ -1,0 +1,33 @@
+{
+  "name": "bankngod",
+  "version": "1.0.0",
+  "description": "An app for cake shop",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarvi652/BanknGod.git"
+  },
+  "author": "Jarvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarvi652/BanknGod/issues"
+  },
+  "homepage": "https://github.com/jarvi652/BanknGod#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.4.0",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
+}
